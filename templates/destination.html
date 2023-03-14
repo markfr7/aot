@@ -72,7 +72,7 @@
        {% for i in img_files %}
 {#            <img class="dest-img" src="{{ url_for('static',filename='img/patagonia/' +  i  )}}" alt="{{ i }}">#}
 {#            <br>#}
-           <div class="card card-wide" style="background-image:url({{ url_for('static',filename='img/patagonia/' +  i  )}})" >
+           <div class="card card-wide" style="background-image:url( {{url_for( 'static',filename='img/patagonia/' +  i  )}} )" >
                {{ i }}
           </div>
         {% endfor %}

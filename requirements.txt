@@ -8,3 +8,4 @@ MarkupSafe==2.1.2
 nodeenv==1.7.0
 Werkzeug==2.2.2
 zipp==3.13.0
+ 
