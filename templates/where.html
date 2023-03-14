@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block title %}About AOT{% endblock title %}
+{% block head %}
+  {{ super() }}
+{% endblock  %}
+{% block body %}
+
+<div class="header1">
+  Where We Go
+</div>
+
+<div class="main-container">
+<h1>Countries</h1>
+  <div class="countries pageSection">
+
+    <ul class="pageUL">
+      <li class="ulItem" id="item1"><a href="{{ url_for('destination',name='peru') }}">Peru</a></li>
+      <li class="ulItem" id="item2"><a href="{{ url_for('destination',name='argentina') }}">Argentina</a></li>
+      <li class="ulItem" id="item3"><a href="{{ url_for('destination',name='brazil') }}">Brazil</a></li>
+      <li class="ulItem" id="item4"><a href="{{ url_for('destination',name='chile') }}">Chile</a></li>
+      <li class="ulItem" id="item5"><a href="{{ url_for('destination',name='ecuador') }}">Ecuador</a></li>
+    </ul>
+  </div>
+
+  <h1>Destinations</h1>
+  <div class="destinations pageSection">
+   
+    <ul class="pageUL">
+      <li class="ulItem" id="item1"><a href="{{ url_for('destination',name='amazon') }}">Amazon</a></li>
+      <li class="ulItem" id="item2"><a href="{{ url_for('destination',name='galapagos') }}">Galapagos</a></li>
+      <li class="ulItem" id="item3"><a href="{{ url_for('destination',name='patagonia') }}">Patagonia</a></li>
+      <li class="ulItem" id="item4"><a href="{{ url_for('destination',name='antarctica') }}">Antarctica</a></li>
+      <li class="ulItem" id="item5"><a href="{{ url_for('destination',name='machu_pichu') }}">Machu Pichu</a></li>
+      <li class="ulItem" id="item5"><a href="{{ url_for('destination',name='buenos_aries') }}">Buenos Aires</a></li>
+      <li class="ulItem" id="item5"><a href="{{ url_for('destination',name='rio') }}">Rio de Janeiro</a></li>
+    </ul>
+  </div>
+
+</div>
+
+{% endblock  %}

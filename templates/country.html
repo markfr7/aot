@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+{% block title %}Patagonia{% endblock title %}
+{% block head %}
+  {{ super() }}
+{% endblock  %}
+{% block body %}
+
+<div class="header1">
+  Patagonia 
+</div>   
+
+<div class="">
+  <div class="main-image-div">
+    <img class="mainImage" src="{{ url_for('static',filename='img/patagonia.jpg' )}}" alt="">
+  </div>
+
+  <div class="leftContainer">
+    <h2 class="descriTitle">Title Here</h2>
+    <p class="country-summary">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas vero voluptate ex voluptates amet consectetur quas debitis eaque, vitae iure laborum corporis quod suscipit, voluptatem tempore itaque enim deleniti numquam illo dignissimos sit? Voluptatibus repellendus sequi nesciunt ipsam. Facilis maxime eaque cum fugiat iste doloremque quasi sequi. Nesciunt non deleniti quisquam quasi dolorem nostrum itaque tenetur recusandae expedita? In, enim dignissimos. Iure tempore hic non cumque excepturi 
+    </p> <p class="country-summary">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas vero voluptate ex voluptates amet consectetur quas debitis eaque, vitae iure laborum corporis quod suscipit, voluptatem tempore itaque enim deleniti numquam illo dignissimos sit? Voluptatibus repellendus sequi nesciunt ipsam. Facilis maxime eaque cum fugiat iste doloremque quasi sequi. Nesciunt non deleniti quisquam quasi dolorem nostrum itaque tenetur recusandae expedita? In, enim dignissimos. Iure tempore hic non cumque excepturi totam adipisci, dolore tenetur minima corporis cum laborum quod reiciendis distinctio animi pariatur numquam, quasi nobis ipsam facere aliquam, ipsa est maiores! 
+    </p>
+  </div>
+  <div class="rightContainer">
+    <h2 class="subHead">Highlights</h2>
+    <ul class="ulHighlight">
+      <li class="item1">Hiking in majestic Torres del Paine - UNESCO Biosphere Reserve</li>
+      <li class="item2">Riding and sensing the vastness rugged Patagonia</li>
+      <li class="item3">Visit Perito Moreno Glacier -UNESCO World Heritage site-</li>
+      <li class="item4">Visit a Sheep Shearing Ranch</li>
+      <li class="item3">Meet the elusive Gaucho -cowboy- and their legendary art</li>
+      <li class="item4">Horseback riding at the Andes Mountains</li>
+      <li class="item3">Fly-fishing (seasonal</li>
+      <li class="item4">Stargazing the Southern Skies</li>
+    </ul>
+  </div> 
+  
+
+
+
+</div>
+
+{% endblock  %}

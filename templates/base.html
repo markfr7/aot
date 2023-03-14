@@ -1,0 +1,68 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" type="../image/png" href="{{ url_for('static',filename='favicon.ico' )}}"/>
+  <link rel="stylesheet" href="{{ url_for('static',filename='css/app.css' )}}">
+{#  <link rel="stylesheet" href="{{ url_for('static',filename='css/util.css' )}}">#}
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script src="../static/simpleParallax.js"></script> 
+  <script src="../static/app.js"></script> 
+   
+  {% block head %}
+    <title>{% block title %}{% endblock title %} -  AOT </title>
+  {% endblock head %}
+  
+</head>
+<body>
+{#TODO: check nav in mobile#}
+  <nav class="navbar">
+    <span class="navbar-toggle" id="js-navbar-toggle">
+        <i class="fa fa-bars"></i>
+    </span> 
+    <img class="logo" id="logoImage" src="{{ url_for('static',filename='img/logo.png' )}}" alt="AOT logo">
+            
+    <ul class="main-nav" id="js-menu">
+        <li>
+            <a href="/" class="nav-links">Home</a>
+        </li>
+        <li>
+          <a href="{{ url_for('where') }}" class="nav-links">Destinations</a>
+        </li>
+        <li>
+          <a href="{{ url_for('experience') }}" class="nav-links">Experience</a>
+        </li>
+        
+        <li>
+          <a href="{{ url_for('expect') }}" class="nav-links">What To Expect</a>
+        </li>
+        <li>
+          <a href="{{ url_for('about') }}" class="nav-links">About</a>
+        </li>
+        <li>
+            <a href="{{ url_for('contact') }}" class="nav-links">Contact</a>
+        </li>
+
+    </ul>
+  </nav>	
+
+  {% block body %}
+  {% endblock body %}
+  
+  <script>
+    let mainNav = document.getElementById('js-menu');
+    let navBarToggle = document.getElementById('js-navbar-toggle');
+  
+    navBarToggle.addEventListener('click', function () {
+        mainNav.classList.toggle('active');
+    });
+  </script>
+  
+</body>
+</html>
