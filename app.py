@@ -46,29 +46,20 @@ def country():
 @app.route('/destination/')
 @app.route('/destination/<name>')
 def destination(name=None):
-    j = """
-    {
-      "title": "Patagonia",
-      "sub-head": "Visit the Land of the Untamed",
-      "head-img-url": "http://blah.jpg",
-      "to-do-list": "[Trek on the Patagonian Ice Field,Go Whitewater Rafting in Futaleufu,Hiking and wildlife watching in Torres del Paine,Ride the train to the end of the world in Tierra del Fuego,Take a sailing expedition on the Beagle Channel]",
-      "to-see-list": "[Explore Perito Moreno Glacier,Cruise through the Marble Caves,Go Whale Watching,Go Glacier Trekking]",
-      "img-path": "/img/patagonia/",
-      "img-filenames": "caves.jpg,glacier.jpg,horses.jpg,mt-fritz-sunset.jpg,paddle.jpg,sea-birds.jpg",
-      "description": "Patagonia is the land of the untamed. Left behind in time, inhabited mostly by rheas, guanacos and sheep inland and settled only by those who can find happiness in solitude and the vastness of its sights.  Frequently visited by whales and the Magel lan penguins by its coast\\\, wilderness is ubiquitous. Gauchos, working ranches and fishing lodges coexist with jagged glaciers completing the picture.  Its dramatic wind ridden landscape and bare steppe would mesmerize you. And its playful wind would intrigue you.\\n A far away land that has captivated explorers and scientist alike w ould unquestionably stun you as well  "
-    }
-    """
-    #  return render_template('destination.html', name=name, data=jsonify(j))   json.loads(json_string)
-    data = json.loads(j)
-    f_list = data["img-filenames"]
+   
+    with open('templates/dest/dest-'+ name +'.txt','r') as reader:
+        #simply read the file and discard newlines
+        dat = reader.read().replace('\n', '')
+    
+    #deserialize
+    data = json.loads(dat)
 
-    print(type(f_list))
-    new_list = f_list.split(",")
-    print(type(new_list))
-    # for i in new_list:
-    #     print(i)
+    #make lists to send to template
+    file_list = data["img-filenames"].split(",")
+    #description uses '||' to separate paragraphs
+    descrip = data["description"].split("||")
 
-    return render_template('destination.html', name=name, data=data, img_files=new_list)
+    return render_template('destination.html', name=name, data=data, img_files=file_list, paras=descrip)
 
 
 @app.route('/page/')

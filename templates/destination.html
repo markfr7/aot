@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 
-{% block title %}Patagonia{% endblock title %}
+{% block title %} {{ data["title"] }} {% endblock title %}
 {% block head %}
   {{ super() }}
 {% endblock  %}
@@ -13,7 +13,7 @@
   <h1> Just showing page.</h1>
 {% endif %} #}
 
-    <style>
+<style>
     .photo-grid {
   display: grid;
   gap: 1rem;
@@ -32,11 +32,10 @@
     grid-column: span 2 / auto;
   }
 }
-
-    </style>
+ </style>
 
 <div class="header1">
-    {{ name }}
+    {{ data["title"] }}
 </div>   
 
 <div class="">
@@ -46,10 +45,14 @@
 
   <div class="leftContainer">
     <h2 class="descriTitle">{{ data["sub-head"] }}</h2>
-
-    <p class="country-summary">
+    <!-- <p class="country-summary">
        {{  data["description"]  }}
-    </p>
+    </p> -->
+    {% for p in paras %}
+      <p class="country-summary">
+          {{ p }}
+      </p>
+    {% endfor %}
   </div>
   <div class="rightContainer">
     <h2 class="subHead">Highlights</h2>
@@ -65,19 +68,13 @@
     </ul>
   </div>
 
-
-
-        <hr>
- <div class="photo-grid">
-       {% for i in img_files %}
-{#            <img class="dest-img" src="{{ url_for('static',filename='img/patagonia/' +  i  )}}" alt="{{ i }}">#}
-{#            <br>#}
-           <div class="card card-wide" style="background-image:url( {{url_for( 'static',filename='img/patagonia/' +  i  )}} )" >
-               {{ i }}
-          </div>
-        {% endfor %}
-
- </div>
+  <div class="photo-grid">
+        {% for i in img_files %}
+            <div class="card card-wide" style="background-image:url( {{url_for( 'static',filename='img/patagonia/' +  i  )}} )" >
+                {{ i }}
+            </div>
+          {% endfor %}
+  </div>
 
     <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
 
