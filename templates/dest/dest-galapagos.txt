@@ -1,10 +1,11 @@
 {
   "title": "Galapagos",
-  "sub-head": "Visit the Land of the Untamed",
+  "sub-head": "Natural Paradise. Evolution's Showcase.",
   "head-img-url": "http://blah.jpg",
-  "to-do-list": "[Trek on the Patagonian Ice Field,Go Whitewater Rafting in Futaleufu,Hiking and wildlife watching in Torres del Paine,Ride the train to the end of the world in Tierra del Fuego,Take a sailing expedition on the Beagle Channel]",
-  "to-see-list": "[Explore Perito Moreno Glacier,Cruise through the Marble Caves,Go Whale Watching,Go Glacier Trekking]",
+  "to-do-list": "Join a photographer for hints on capturing the unique species in the Galapagos,Snorkeling Galapagos,Local artisans
+who preserve Ecuadorian handicrafts,Relax at a Hacienda for a few days and visit their chocolate farm for a chocolate making experience from bean to bar",
+  "to-see-list": "Its endemic species are not only the starting point to Darwin’s origin of species - but also one of the most pristine spots on Earth to appreciate untouched habitats and habitants",
   "img-path": "/img/galapagos/",
   "img-filenames": "caves.jpg,glacier.jpg,horses.jpg,mt-fritz-sunset.jpg,paddle.jpg,sea-birds.jpg",
-  "description": "Patagonia is the land of the untamed. Left behind in time, inhabited mostly by rheas, guanacos and sheep inland and settled only by those who can find happiness in solitude and the vastness of its sights. || Frequently visited by whales and the Magel lan penguins by its coast, wilderness is ubiquitous. Gauchos, working ranches and fishing lodges coexist with jagged glaciers completing the picture.  Its dramatic wind ridden landscape and bare steppe would mesmerize you. And its playful wind would intrigue you. ||A far away land that has captivated explorers and scientist alike w ould unquestionably stun you as well.  "
+  "description": "No documentary will ever do any justice to the Galapagos Islands.||Although majestic and impressive, nothing comes even close to navigating its waters and walking their shores. For one simple reason: being followed by curious seals who want to approach you is simply indescribable. And being surrounded by interested and curious blue footed boobies, unreal.||Willing to interact with you, ready to explore you as much as you are to explore them.||Nothing is fake, nothing is pretended. It is raw, naïve nature at its best.||If it would be a book, each one of its islands will write a different chapter. Volcanic, with dramatic character, rugged shores or pinnacle rocks, one of the most distinctive features of them is that they all have their own personality and impromptu and are very different from each other. Ready to be discovered, to show you their charisma, ready to play and interact with you, just like its nature."
 }

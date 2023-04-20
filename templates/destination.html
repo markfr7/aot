@@ -38,7 +38,7 @@
     {{ data["title"] }}
 </div>   
 
-<div class="">
+<div class="dest-summary">
   <div class="main-image-div">
     <img class="mainImage" src="{{ url_for('static',filename='img/' +  name  + '.jpg' )}}" alt="{{ name }}">
   </div>
@@ -49,31 +49,63 @@
        {{  data["description"]  }}
     </p> -->
     {% for p in paras %}
-      <p class="country-summary">
+      <p class="dest-text">
           {{ p }}
       </p>
     {% endfor %}
   </div>
-  <div class="rightContainer">
+
+  <section class="rightContainer">
     <h2 class="subHead">Highlights</h2>
-    <ul class="ulHighlight">
-      <li class="item1">Hiking in majestic Torres del Paine - UNESCO Biosphere Reserve</li>
+    <!-- <hr> -->
+    <section class="highlight">
+      <h3>TO DO:</h3>
+      <ul class="ulHighlight">
+        {% for todo in todos %}
+        <li class="item1">{{ todo }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+    
+    <section class="highlight">
+      <h3>TO SEE:</h3>
+      <ul class="ulHighlight">
+        {% for tosee in tosees %}
+        <li class="item1">{{ tosee }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+
+    {% if links|length  %}
+      <section class="highlight">
+        <h3>LINKS:</h3>
+        <ul class="ulHighlight">
+        
+          {% for link in links %}
+            {% set temp_list = link.split("||") %}
+            <li class="item1"><a href="{{ temp_list[0] }}">{{ temp_list[1] }}</a></li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endif %}
+
+      <!-- <li class="item1">Hiking in majestic Torres del Paine - UNESCO Biosphere Reserve</li>
       <li class="item2">Riding and sensing the vastness rugged Patagonia</li>
       <li class="item3">Visit Perito Moreno Glacier -UNESCO World Heritage site-</li>
       <li class="item4">Visit a Sheep Shearing Ranch</li>
       <li class="item3">Meet the elusive Gaucho -cowboy- and their legendary art</li>
       <li class="item4">Horseback riding at the Andes Mountains</li>
-      <li class="item3">Fly-fishing (seasonal</li>
+      <li class="item3">Fly-fishing (seasonal)</li>
       <li class="item4">Stargazing the Southern Skies</li>
-    </ul>
+    </ul> -->
   </div>
 
   <div class="photo-grid">
         {% for i in img_files %}
-            <div class="card card-wide" style="background-image:url( {{url_for( 'static',filename='img/patagonia/' +  i  )}} )" >
-                {{ i }}
-            </div>
-          {% endfor %}
+          <div class="card card-wide" style="background-image:url( {{url_for('static',filename='img/patagonia/' +  i )}}  )" >
+              {{ i }}
+          </div>
+        {% endfor %}
   </div>
 
     <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>

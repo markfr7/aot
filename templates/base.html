@@ -10,13 +10,13 @@
   <link rel="shortcut icon" type="../image/png" href="{{ url_for('static',filename='favicon.ico' )}}"/>
   <link rel="stylesheet" href="{{ url_for('static',filename='css/app.css' )}}">
 {#  <link rel="stylesheet" href="{{ url_for('static',filename='css/util.css' )}}">#}
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">
  
-  <script src="../static/simpleParallax.js"></script> 
+  <!-- <script src="../static/simpleParallax.js"></script>  -->
   <script src="../static/app.js"></script> 
    
   {% block head %}
@@ -25,15 +25,16 @@
   
 </head>
 <body>
-{#TODO: check nav in mobile#}
+
+  <header class="primary-header flex">
+  <img class="logo" id="logoImage" src="{{ url_for('static',filename='img/logo.png' )}}" alt="AOT logo">
+
   <nav class="navbar">
-    <span class="navbar-toggle" id="js-navbar-toggle">
-        <i class="fa fa-bars"></i>
-    </span> 
-    <img class="logo" id="logoImage" src="{{ url_for('static',filename='img/logo.png' )}}" alt="AOT logo">
+
+    <button class="nav-toggle" id="nav-toggle"></button> 
             
-    <ul class="main-nav" id="js-menu">
-        <li>
+    <ul class="main-nav flex" id="main-nav" data-visible="false">
+        <li class="nav-link-active">
             <a href="/" class="nav-links">Home</a>
         </li>
         <li>
@@ -55,16 +56,18 @@
 
     </ul>
   </nav>	
-
+</header>
   {% block body %}
   {% endblock body %}
   
   <script>
-    let mainNav = document.getElementById('js-menu');
-    let navBarToggle = document.getElementById('js-navbar-toggle');
+    let mainNav = document.getElementById('main-nav');
+    let navBarToggle = document.getElementById('nav-toggle');
   
     navBarToggle.addEventListener('click', function () {
-        mainNav.classList.toggle('active');
+        mainNav.classList.toggle('nav-active');
+        navBarToggle.classList.toggle('nav-toggle-active');
+
     });
   </script>
   

@@ -53,13 +53,19 @@ def destination(name=None):
     
     #deserialize
     data = json.loads(dat)
-
     #make lists to send to template
     file_list = data["img-filenames"].split(",")
+    todo_list = data["to-do-list"].split(",")
+    tosee_list = data["to-see-list"].split(",")
+    try:
+        links_list = data["links"].split(",")
+    except:
+        links_list = []
+    print(links_list)
     #description uses '||' to separate paragraphs
     descrip = data["description"].split("||")
 
-    return render_template('destination.html', name=name, data=data, img_files=file_list, paras=descrip)
+    return render_template('destination.html', name=name, data=data, img_files=file_list, paras=descrip, todos=todo_list, tosees=tosee_list, links=links_list)
 
 
 @app.route('/page/')
