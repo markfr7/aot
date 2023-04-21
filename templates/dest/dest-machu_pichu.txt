@@ -1,10 +1,10 @@
 {
   "title": "Machu Pichu",
-  "sub-head": "Visit the Land of the Untamed",
+  "sub-head": "Lost City of the Incas",
   "head-img-url": "http://blah.jpg",
-  "to-do-list": "[Trek on the Patagonian Ice Field,Go Whitewater Rafting in Futaleufu,Hiking and wildlife watching in Torres del Paine,Ride the train to the end of the world in Tierra del Fuego,Take a sailing expedition on the Beagle Channel]",
-  "to-see-list": "[Explore Perito Moreno Glacier,Cruise through the Marble Caves,Go Whale Watching,Go Glacier Trekking]",
-  "img-path": "/img/galapagos/",
-  "img-filenames": "caves.jpg,glacier.jpg,horses.jpg,mt-fritz-sunset.jpg,paddle.jpg,sea-birds.jpg",
-  "description": "Patagonia is the land of the untamed. Left behind in time, inhabited mostly by rheas, guanacos and sheep inland and settled only by those who can find happiness in solitude and the vastness of its sights. || Frequently visited by whales and the Magel lan penguins by its coast, wilderness is ubiquitous. Gauchos, working ranches and fishing lodges coexist with jagged glaciers completing the picture.  Its dramatic wind ridden landscape and bare steppe would mesmerize you. And its playful wind would intrigue you. ||A far away land that has captivated explorers and scientist alike w ould unquestionably stun you as well.  "
+  "to-do-list": "Rise with the sun to walk through Machu Picchu in the early morning mist, Board the Vistadome train",
+  "to-see-list": "Discover Cusco on a city tour",
+  "img-path": "/img/machu_pichu/",
+  "img-filenames": "river-f.jpg,door-t.jpg,machu-hillside-r.jpg,ladies-r.jpg,structure2-r.jpg,train-r.jpg,trek-locks-w.jpg,umbrella-r.jpg,tiers-w.jpg,llama-r.jpg,trek-sidewalk-r.jpg,salkantay-sign-r.jpg",
+  "description": "One of the 7 Wonders of the world, a place visited by almost 2 million people yearly, yet it has that intriguing power of making you feel like it is talking personally to you. ||Coveted between grassy hills, sometimes even behind a cloudy veil, its beauty speaks by itself. A breathtaking layout atop a spectacular viewpoint will help you marvel at the mysteries of the Inca civilization. || It’s a must see to believe: the architecture includes more than 150 buildings ranging from baths and houses to temples and sanctuaries, with stonework so precise that not even a paper would fit in between."
 }
