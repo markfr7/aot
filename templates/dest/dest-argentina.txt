@@ -1,10 +1,10 @@
 {
   "title": "Argentina",
-  "sub-head": "Visit the Land of the Untamed",
+  "sub-head": "Vibrant Passion and Beauty",
   "head-img-url": "http://blah.jpg",
-  "to-do-list": "[Trek on the Patagonian Ice Field,Go Whitewater Rafting in Futaleufu,Hiking and wildlife watching in Torres del Paine,Ride the train to the end of the world in Tierra del Fuego,Take a sailing expedition on the Beagle Channel]",
-  "to-see-list": "[Explore Perito Moreno Glacier,Cruise through the Marble Caves,Go Whale Watching,Go Glacier Trekking]",
+  "to-do-list": "[]",
+  "to-see-list": "[]",
   "img-path": "/img/galapagos/",
-  "img-filenames": "caves.jpg,glacier.jpg,horses.jpg,mt-fritz-sunset.jpg,paddle.jpg,sea-birds.jpg",
-  "description": "Patagonia is the land of the untamed. Left behind in time, inhabited mostly by rheas, guanacos and sheep inland and settled only by those who can find happiness in solitude and the vastness of its sights. || Frequently visited by whales and the Magel lan penguins by its coast, wilderness is ubiquitous. Gauchos, working ranches and fishing lodges coexist with jagged glaciers completing the picture.  Its dramatic wind ridden landscape and bare steppe would mesmerize you. And its playful wind would intrigue you. ||A far away land that has captivated explorers and scientist alike w ould unquestionably stun you as well.  "
+  "img-filenames": "fitzroy-f.jpg,cabildo-t.jpg,tango-r.jpg,vinyards-r.jpg,empanada-r.jpg,mountaineer-r.jpg,lake-w.jpg,pampas-r.jpg,humahuaca-w.jpg,gauchos-r.jpg,laboca-r.jpg,highway-r.jpg",
+  "description": "Often defined as the land of the gauchos and beef, a description that portraits a romantic countryside, Argentina is much more than that and as extensive as its territory.||The belle epoque palaces of Buenos Aires, the roaring clamor of the Iguassu Falls. The indigenous untouched heritage paired up with its Martian-like scenery in its Northwest, the untamed howling winds of Patagonia with all its rugged beauty. This is Argentina. ||The Southern-most city in the World, Ushuaia, witnessing immutable so many Antarctic voyages. Its dramatic cliff laden Atlantic coast, the wilderness and remoteness of its steppe. ||A country that has deserts, subtropical forests, falls, grasslands and jungles. A land that can grow almost any imaginable crop can also offer an incredible cultural scene. ||Epic barbecues are combined with top notch properties and a hospitality and friendliness that is second to none. If its tango is up close and personal, so is its people, that embrace you and make you feel not only like you are home, but like you should return soon."
 }

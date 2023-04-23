@@ -1,10 +1,10 @@
 {
   "title": "Chili",
-  "sub-head": "Visit the Land of the Untamed",
+  "sub-head": "Nature Reigns, Adventure Awaits",
   "head-img-url": "http://blah.jpg",
-  "to-do-list": "[Trek on the Patagonian Ice Field,Go Whitewater Rafting in Futaleufu,Hiking and wildlife watching in Torres del Paine,Ride the train to the end of the world in Tierra del Fuego,Take a sailing expedition on the Beagle Channel]",
-  "to-see-list": "[Explore Perito Moreno Glacier,Cruise through the Marble Caves,Go Whale Watching,Go Glacier Trekking]",
+  "to-do-list": "Taste acclaimed Chilean wines,Stargaze in the Atacama Desert,Hike and horseback in Torres del Paine National Park,Sea kayak off the Chilean coast,Retrace the history of pirates and buccaneers walking the hills of Valparaiso",
+  "to-see-list": "Patagonia. With its beautiful lakes mountains and rivers - especially Torres del Paine National Park - one of top ten National parks in the world.,Visit the remote and unique Easter Island and learn about their incredible Rapa Nui culture and the Moa,Catch yourself immersed in picture-perfect scenery while cruising the panoramic and alluing Chilean fjords ",
   "img-path": "/img/galapagos/",
   "img-filenames": "caves.jpg,glacier.jpg,horses.jpg,mt-fritz-sunset.jpg,paddle.jpg,sea-birds.jpg",
-  "description": "Patagonia is the land of the untamed. Left behind in time, inhabited mostly by rheas, guanacos and sheep inland and settled only by those who can find happiness in solitude and the vastness of its sights. || Frequently visited by whales and the Magel lan penguins by its coast, wilderness is ubiquitous. Gauchos, working ranches and fishing lodges coexist with jagged glaciers completing the picture.  Its dramatic wind ridden landscape and bare steppe would mesmerize you. And its playful wind would intrigue you. ||A far away land that has captivated explorers and scientist alike w ould unquestionably stun you as well.  "
+  "description": "Being the longest in the world, if you open a map of the country, you will be unfolding –multiple times over- a surprising geography. ||Likewise, when you visit, your eyes will unveil to dramatic landscapes: from the driest desert in the world up North –Atacama- to the jagged fjords in the South. ||Stretching only a little over 100 miles wide, Chile boasts one of the most stunning National Parks, Torres del Paine and its impressive granite massif and towers. It has glaciers, the largest continental ice field and, impressively, fertile valleys pinched between mountainous ranges that grow some outstanding wine and fruits alike.||The Lakes District is as painteresque with its temperamental volcanoes as the city of Valparaiso is captivating with its rolling hills, bohemian flair and graffiti art. ||Straightforward, yet rich in every way, Chile has made of itself a welcoming destination for the adventure seekers, the modern travelers and families alike."
 }

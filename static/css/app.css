@@ -257,7 +257,21 @@ h2.subhead1 {
   display: inline-block;
   font-size:1.8em;
   margin: 6px 12px;
+  width:200px;
+  height:200px;
+  border: 1px solid #444;
 }
+.ulItem a{
+  color:#fff;
+  text-decoration: none;
+  /* width:200px;
+  height:200px; */
+  /* background-color: gray;
+  padding:6px; */
+  /* width:100%;
+  opacity: 0.5; */
+}
+
 
 .pageSection{
   display:block;
