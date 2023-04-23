@@ -1,5 +1,5 @@
 {
-  "title": "Chili",
+  "title": "Chile",
   "sub-head": "Nature Reigns, Adventure Awaits",
   "head-img-url": "http://blah.jpg",
   "to-do-list": "Taste acclaimed Chilean wines,Stargaze in the Atacama Desert,Hike and horseback in Torres del Paine National Park,Sea kayak off the Chilean coast,Retrace the history of pirates and buccaneers walking the hills of Valparaiso",
