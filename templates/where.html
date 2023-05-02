@@ -6,6 +6,31 @@
 {% endblock  %}
 {% block body %}
 
+<style>
+  .overlay {
+    position: absolute; 
+    background: rgba(57, 57, 57, 0.7);
+  
+    /* center overlay text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay_1 {
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 8px;
+    line-height: 0.9 ;
+  }
+  .where-image{
+    width:300px; 
+    height:200px; 
+    display:inline-block;
+  }
+
+</style>
 <div class="header1">
   Where We Go
 </div>
@@ -14,32 +39,40 @@
   <div class="countries pageSection">
 
     <ul class="pageUL">
-      <li class="ulItem" id="item1" style="background-size:cover;background-image: url({{url_for('static',filename='img/peru/dancing-f.jpg')}});">
-        <a href="{{ url_for('destination',name='peru') }}">Peru</a>
+
+      <li class="ulItem">
+        <a href="{{ url_for('destination',name='peru') }}">
+          <img class="where-image" src = "{{url_for('static',filename='img/peru/dancing-f.jpg')}}">
+          <div class="overlay overlay_1 header1">Peru</div> 
+        </a>
       </li>
 
-      <li class="ulItem" id="item4" style="background-size:cover;background-image: url({{url_for('static',filename='img/chile/torres2-r.jpg')}});">
-        <a href="{{ url_for('destination',name='chile') }}">Chile</a>
+      <li class="ulItem">
+        <a href="{{ url_for('destination',name='chile') }}">
+          <img class="where-image" src = "{{url_for('static',filename='img/chile/torres2-r.jpg')}}">
+          <div class="overlay overlay_1 header1">Chile</div> 
+        </a>
       </li>
 
-      <li class="ulItem" id="item2" >
+      <li class="ulItem">
         <a href="{{ url_for('destination',name='argentina') }}">
-          <div style="width:200px; height:200px;background-size:cover;background-image: url({{url_for('static',filename='img/argentina/tango-r.jpg')}});">
-            Argentina
-          </div>
+            <img class="where-image" src = "{{url_for('static',filename='img/argentina/tango-r.jpg')}}">
+            <div class="overlay overlay_1 header1">Argentina</div>
         </a>
       </li>
 
-      <li class="ulItem" id="item5">
+      <li class="ulItem">
         <a href="{{ url_for('destination',name='ecuador') }}">
-          <div style="width:200px; height:200px;background-size:cover;background-image: url({{url_for('static',filename='img/ecuador/volcano-f.jpg')}});">
-            Ecuador
-          </div>
+          <img class="where-image" src = "{{url_for('static',filename='img/ecuador/volcano-f.jpg')}}">
+          <div class="overlay overlay_1 header1">Ecuador</div> 
         </a>
       </li>
 
-      <li class="ulItem" id="item3">
-        <a href="{{ url_for('destination',name='brazil') }}">Brazil</a>
+      <li class="ulItem">
+        <a href="{{ url_for('destination',name='brazil') }}">
+          <img class="where-image" src = "{{url_for('static',filename='img/brazil/downtown-r.jpg')}}" >
+          <div class="overlay overlay_1 header1">Brazil</div> 
+        </a>
       </li>
 
     </ul>
@@ -49,40 +82,55 @@
   <div class="destinations pageSection">
    
     <ul class="pageUL">
-      <li class="ulItem" id="item1" style="background-size:cover;background-image: url({{url_for('static',filename='img/amazon/tucan-r.jpg')}});">
-        <!-- <img class="where-image" src="{{url_for('static',filename='img/amazon/tucan-r.jpg')}}"> -->
-        <a href="{{ url_for('destination',name='amazon') }}">Amazon</a>
-      </li>
 
-      <li class="ulItem" id="item2" style="background-size:cover;background-image: url({{url_for('static',filename='img/galapagos/fish-r.jpg')}});">
-        <a href="{{ url_for('destination',name='galapagos') }}">Galapagos</a>
-      </li>
-
-      <li class="ulItem" id="item3" style="background-size:cover;background-image: url({{url_for('static',filename='img/patagonia/fitzroy-t.jpg')}});">
-        <a href="{{ url_for('destination',name='patagonia') }}">Patagonia</a>
-      </li>
-
-      <li class="ulItem" id="item4" style="background-size:cover;background-image: url({{url_for('static',filename='img/antarctica/iceberg-r.jpg')}});">
-        <a href="{{ url_for('destination',name='antarctica') }}">Antarctica</a>
-      </li>
-      <br>
-      <li class="ulItem" id="item5">
-        <a href="{{ url_for('destination',name='buenos_aires') }}">
-          <div style="width:200px; height:200px;background-size:cover;background-image: url({{url_for('static',filename='img/buenos_aires/city-f.jpg')}});">
-           Buenos Aires
-          </div>
+      <li class="ulItem">
+        <a href="{{ url_for('destination',name='machu_pichu') }}">
+          <img class="where-image" src = "{{url_for('static',filename='img/machu_pichu/umbrella-r.jpg')}}">
+          <div class="overlay overlay_1 header1">Machu Pichu</div>
         </a>
       </li>
 
-      <li class="ulItem" id="item5" style="background-size:cover;background-image: url({{url_for('static',filename='img/rio/ctr-r.jpg')}});">
-        <a href="{{ url_for('destination',name='rio') }}">Rio de Janeiro</a>
+      <li class="ulItem" id="item2">
+        <a href="{{ url_for('destination',name='galapagos') }}">
+          <img class="where-image" src = "{{url_for('static',filename='img/galapagos/fish-r.jpg')}}">
+          <div class="overlay overlay_1 header1">Galapagos</div> 
+        </a>
       </li>
 
       <li class="ulItem" id="item5">
-        <a href="{{ url_for('destination',name='machu_pichu') }}">
-          <div style="width:200px; height:200px;background-size:cover;background-image: url({{url_for('static',filename='img/machu_pichu/umbrella-r.jpg')}});">
-            Machu <br> Pichu
-          </div>
+        <a href="{{ url_for('destination',name='buenos_aires') }}">
+          <img class="where-image" src = "{{url_for('static',filename='img/buenos_aires/city-f.jpg')}}">
+          <div class="overlay overlay_1 header1">Buenos Aires</div>
+        </a>
+      </li>
+
+      <li class="ulItem">
+        <a href="{{ url_for('destination',name='patagonia') }}">      
+          <img class="where-image" src = "{{url_for('static',filename='img/patagonia/fitzroy-t.jpg')}}">
+          <div class="overlay overlay_1 header1">Patagonia</div>
+        </a>
+      </li>
+
+
+      <li class="ulItem">
+        <a href="{{ url_for('destination',name='antarctica') }}">
+          <img class="where-image" src = "{{url_for('static',filename='img/antarctica/iceberg-r.jpg')}}">
+          <div class="overlay overlay_1 header1">Antarctica</div>
+        </a>
+      </li>
+
+      <li class="ulItem">
+        <a href="{{ url_for('destination',name='rio') }}">
+          <img class="where-image" src = "{{url_for('static',filename='img/rio/ctr-r.jpg')}}">
+          <div class="overlay overlay_1 header1">Rio De Jenieiro</div>
+        </a>
+      </li>
+
+      <li class="ulItem">
+        <!-- <img class="where-image" src="{{url_for('static',filename='img/amazon/tucan-r.jpg')}}"> -->
+        <a href="{{ url_for('destination',name='amazon') }}">
+          <img class="where-image" src = "{{url_for('static',filename='img/amazon/tucan-r.jpg')}}" >
+          <div class="overlay overlay_1 header1">Amazon</div> 
         </a>
       </li>
 

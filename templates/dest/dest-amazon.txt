@@ -2,8 +2,8 @@
   "title": "Amazon",
   "sub-head": "The Planet's Beating Heart",
   "head-img-url": "http://blah.jpg",
-  "to-do-list": "[Trek on the Patagonian Ice Field,Go Whitewater Rafting in Futaleufu,Hiking and wildlife watching in Torres del Paine,Ride the train to the end of the world in Tierra del Fuego,Take a sailing expedition on the Beagle Channel]",
-  "to-see-list": "[Explore Perito Moreno Glacier,Cruise through the Marble Caves,Go Whale Watching,Go Glacier Trekking]",
+  "to-do-list": "",
+  "to-see-list": "",
   "img-path": "/img/galapagos/",
   "img-filenames": "caves.jpg,glacier.jpg,horses.jpg,mt-fritz-sunset.jpg,paddle.jpg,sea-birds.jpg",
   "description": "If our planet is alive, the Amazon is beating.||Pulsing to every flap of its colorful birds, pounding with each pod of pink dolphins navigating its waters, keeping the rhythm swinging along with each and every monkey.||The acuteness you will develop listening to the sounds of nature will simply astonish you. Whether spotting alligators in the middle of the night or soaking in the immensity of the green, the environment will embrace you. It will hug you. It will comfort you.||You’ll reconnect with nature, reflect upon the landscape and discover in awe that the world’s medicine is right here, in bountiful Amazonia.||Escape from it all. Visit the Amazon and let oxygen be your wi-fi.

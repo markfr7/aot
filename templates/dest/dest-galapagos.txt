@@ -2,8 +2,8 @@
   "title": "Galapagos",
   "sub-head": "Natural Paradise. Evolution's Showcase.",
   "head-img-url": "http://blah.jpg",
-  "to-do-list": "Join a photographer for hints on capturing the unique species in the Galapagos,Snorkeling Galapagos,Local artisans
-who preserve Ecuadorian handicrafts,Relax at a Hacienda for a few days and visit their chocolate farm for a chocolate making experience from bean to bar",
+  "to-do-list": "Join a photographer for hints on capturing the unique species in the Galapagos||Snorkeling Galapagos,Local artisans
+who preserve Ecuadorian handicrafts||Relax at a Hacienda for a few days and visit their chocolate farm for a chocolate making experience from bean to bar",
   "to-see-list": "Its endemic species are not only the starting point to Darwin’s origin of species - but also one of the most pristine spots on Earth to appreciate untouched habitats and habitants",
   "img-path": "/img/galapagos/",
   "img-filenames": "cacti-f.jpg,sea-lion-t.jpg,beach-r.jpg,flamingos-r.jpg,blue-feet-r.jpg,turtles-r.jpg,arch-w.jpg,iguana-r.jpg,pinnacle-w.jpg,family-r.jpg,crab-r.jpg,fish-r.jpg",

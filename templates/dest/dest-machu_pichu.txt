@@ -2,7 +2,7 @@
   "title": "Machu Pichu",
   "sub-head": "Lost City of the Incas",
   "head-img-url": "http://blah.jpg",
-  "to-do-list": "Rise with the sun to walk through Machu Picchu in the early morning mist, Board the Vistadome train",
+  "to-do-list": "Rise with the sun to walk through Machu Picchu in the early morning mist|| Board the Vistadome train",
   "to-see-list": "Discover Cusco on a city tour",
   "img-path": "/img/machu_pichu/",
   "img-filenames": "river-f.jpg,door-t.jpg,machu-hillside-r.jpg,ladies-r.jpg,structure2-r.jpg,train-r.jpg,trek-locks-w.jpg,umbrella-r.jpg,tiers-w.jpg,llama-r.jpg,trek-sidewalk-r.jpg,salkantay-sign-r.jpg",

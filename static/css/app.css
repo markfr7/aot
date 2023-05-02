@@ -56,7 +56,6 @@ body {
   gap:1rem;
 }
 
-
 .container {
   margin:0;
   padding:0;
@@ -92,6 +91,9 @@ h2.subhead1 {
  padding: 0.5em;
 
 
+}
+.be-a-block{
+  display:inline-block;
 }
 .section-head {
   margin-top: 1em;
@@ -193,7 +195,7 @@ h2.subhead1 {
 
 .card:hover {
     box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
-    /* transform: translateY(-3px) scale(1.1); */
+    transform: translateY(-3px) scale(1.1);
  }
 
 
@@ -223,27 +225,6 @@ h2.subhead1 {
   max-height: 300px;
     max-width: 100%;
 }
-/* .navbar {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 0;
-  align-items: center;
-}
-.main-nav {
-  display: flex;
-  margin-right: 30px;
-  flex-direction: row;
-  justify-content: flex-end;   
-  flex-wrap: wrap;
-  
-}
-.main-nav li {
-  margin: 5px 0;color:#333;
-}
-.nav-links {
-  margin-left: 40px;
-  color:#333;
-} */
 
 #featured-content-head {
   margin-bottom: 1em ;
@@ -254,10 +235,11 @@ h2.subhead1 {
 
 }
 .ulItem{
+  position: relative;
   display: inline-block;
   font-size:1.8em;
   margin: 6px 12px;
-  width:200px;
+  width:300px;
   height:200px;
   border: 1px solid #444;
 }
@@ -272,6 +254,14 @@ h2.subhead1 {
   opacity: 0.5; */
 }
 
+.map-img{
+  max-width:70px;
+  /* margin-right:10px;  */
+  margin: 6px 0px -30px 12px;
+  display:inline-block;
+  /* left:0px; */
+
+}
 
 .pageSection{
   display:block;
