@@ -12,6 +12,11 @@ def home():
     return render_template('home.html')
 
 
+@app.route('/home2')
+def home2():
+    return render_template('home-2.html')
+
+
 @app.route('/about')
 def about():
     return render_template('about.html')
@@ -82,4 +87,4 @@ def test():
 
 
 if __name__ == '__main__':
-    app.run(debug=True, port=4999)
+    app.run(debug=True, port=5000)

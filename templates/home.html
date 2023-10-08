@@ -1,88 +1,21 @@
-{% extends 'base.html' %}
-
-{% block title %}What We Do{% endblock title %}
-{% block head %}
-  {{ super() }}
-{% endblock  %}
-{% block body %}
-
-		 
-  <div class="header1">
-    South American Adventures
-  </div>   
-
-  <!-- <div style="width:100%;position:relative;background:#000;"> -->
-    <div id="vid" style="width:100%;padding:0;border:0 solid #333;margin:0 auto 2em auto;">
-      <!--  <img class="img-kenburns" src="static/cave2.jpg" alt="image2" style="max-width:100%;">   -->
-      <video id="v" width="100%"  controls  src="{{ url_for('static',filename='draft10.mp4')}}" type="video/mp4"  poster="{{ url_for('static',filename='img/vid-poster.png')}}"></video>
-      <!-- <video id="v" width="100%"  autoplay controls  src="static/draft9.mp4" type="video/mp4"  poster="static/vid-poster.png" onended="showPoster()"></video> -->
-    </div>
-	<!-- </div> -->
-    <!-- <div id="vid" style="width:100%;margin:0px;padding:0px;border:0px solid #333;margin:0px auto 2em auto;">
-      <video width="100%" autobuffer controls id="myVideo">
-        <source id="mp4" src="static/Draft8.mp4" type="video/mp4">
-      </video>
-    </div> -->
-    <!-- https://www.dropbox.com/s/fi3kpul0lf6ctnd/Draft8.mp4?dl=0 -->
 
 
-  <div class="section-head3">
-    <h1 class="header1">Get to Know The Other America</h1> 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Architects of Travel</title>
+</head>
+<body>
+  <div class="logo-t" style="text-align:center;margin-top:10%;">
+
+    <img style="max-width:85%;" class="logo=temp" id="logoImage-page" src="static/img/logo.png" alt="AOT logo">
   </div>
-	<div class="columns">	
-    <div>
-      <h3>Antrarctica</h3>
-      <p>
-        The mission of Architects of Travel is to craft immersive, unique journeys to South America and beyond. AOT is known for our expertise, worldwide relationships, and innovative design process. AOT's personalized adventures are created by travel architects and designed to be works of art that fulfill each traveler's unique vision.      
-      </p>
-    </div>
-    <div>
-      <h3>Galapagos</h3>
-      <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-      </p>
-    </div>
-    <div>
-      <h3>Machu Pichu x</h3>
-      <p>
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam harum deleniti dolorem perspiciatis exercitationem debitis accusantium est voluptates reprehenderit temporibus quas natus aperiam ipsam autem inventore, minima possimus iusto voluptatum?
-      </p>
-	  </div>
-	</div>
+</body>
+</html>
 	
-
-  <div class="featured">
-    <div class="image-div-feature">	
-      <img class="img-kenburns" src="{{ url_for('static',filename='img/cave2.jpg' )}}" alt="image2">
-    </div> 
-
-    <div>
-      <h3 id="featured-content-head">Who We Are...</h3>
-      <p class="featured-content">
-        The mission of Architects of Travel is to craft immersive, unique journeys to South America and beyond. AOT is known for our expertise, worldwide relationships, and innovative design process. AOT's personalized adventures are created by travel architects and designed to be works of art that fulfill each traveler's unique vision.
-      </p>
-    </div>
-  </div>	
-
-		<br><br><br><br><br><br><br><br>
-<!-- 		<img class="lazy" src="cave.jpg" alt="image" style="width:100%" > -->
-		
-
-
-{% endblock  %}
-
-<script>
-
-    const image = document.getElementsByClassName('lazy');
-    new simpleParallax(image, {
-	scale: 1.25,
-	delay: .6,
-	transition: 'cubic-bezier(0,0,0,1)',
-	//customWrapper: 'imageDiv'
-	});
-	
-</script>
 
 
 	

@@ -172,6 +172,11 @@ h2.subhead1 {
   margin: 2rem; 
   max-width: 220px;
 }	
+.logo-temp {
+  display: block;
+  margin: 2rem; 
+  max-width: 1220px;
+}	
 
 .card {
     display: flex;
@@ -185,17 +190,22 @@ h2.subhead1 {
     height: 100%;
     width: 100%;
     border-radius: 4px;
-    transition: all 1000ms;
+    /* transition: all 1000ms; */
     overflow: hidden;
 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
+    /* transition: transform 2500ms ease-in; */
+  
  }
 
 .card:hover {
-    box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
-    transform: translateY(-3px) scale(1.1);
+    box-shadow: rgba(2, 8, 20, 0.3) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+    /* transform: translateY(-3px) scale(1.1); */
+
+    
  }
 
 
@@ -283,7 +293,7 @@ h2.subhead1 {
   max-width:100%;
 }
 .main-image-div-expect{
-  background-image: url('/static/img/blueprint.jpg') ;
+  background-image: url('/static/img/blueprint2.jpg') ;
   background-size: cover ;
   background-position: right top;
   padding:3em;
